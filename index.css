@@ -1,6 +1,17 @@
 body {
-  /* background-color: red; */
+  background-color: #f0f0f0; /* Ganti dengan warna latar belakang yang diinginkan */
 }
+
 .tambah {
-  float: right;
+  float: left;
+  margin-top: 10px; /* Beri sedikit margin atas untuk memisahkan dari elemen lain */
+}
+
+#formulirTambah {
+  float: left;
+  margin: 10px; /* Beri sedikit margin agar formulir tidak terlalu dekat dengan tepi */
+  padding: 15px; /* Beri padding untuk meningkatkan kejelasan elemen formulir */
+  border: 1px solid red; /* Ganti dengan warna garis yang sesuai */
+  border-radius: 5px; /* Tambahkan border-radius untuk tampilan yang lebih lembut */
+  background-color: #fff; /* Ganti dengan warna latar belakang formulir yang diinginkan */
 }

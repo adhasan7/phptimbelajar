@@ -61,24 +61,62 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <!-- Formulir Edit -->
     <form action="" method="post">
-        <label for="nis">NIS:</label>
-        <input type="text" name="nis" value="<?php echo $row['nis']; ?>"><br>
+    <table>
+        <tr>
+            <td>
+                <label for="nis">NIS</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="nis" value="<?php echo $row['nis']; ?>">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="nama">Nama</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="nama" value="<?php echo $row['nama']; ?>">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="jk">Jenis Kelamin</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="jk" value="<?php echo $row['jk']; ?>">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="alamat">Alamat</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="alamat" value="<?php echo $row['alamat']; ?>">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="no_hp">Nomor HP</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="no_hp" value="<?php echo $row['no_hp']; ?>">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <button type="submit">Simpan Perubahan</button>
+                <a href="index.php">Batal</a>
+            </td>
+        </tr>
+    </table>
+</form>
 
-        <label for="nama">Nama:</label>
-        <input type="text" name="nama" value="<?php echo $row['nama']; ?>"><br>
 
-        <label for="jk">Jenis Kelamin:</label>
-        <input type="text" name="jk" value="<?php echo $row['jk']; ?>"><br>
-
-        <label for="alamat">Alamat:</label>
-        <input type="text" name="alamat" value="<?php echo $row['alamat']; ?>"><br>
-
-        <label for="no_hp">Nomor HP:</label>
-        <input type="text" name="no_hp" value="<?php echo $row['no_hp']; ?>"><br>
-
-        <button type="submit">Simpan Perubahan</button>
-        <a href="index.php">Batal</a>
-    </form>
 </body>
 </html>
 

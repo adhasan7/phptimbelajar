@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($nisExists) {
       
-      // echo "<script>alert('Maaf, NIS sudah ada. Silakan gunakan NIS yang berbeda.');</script>";
+      echo "<script>alert('Maaf, NIS sudah ada. Silakan gunakan NIS yang berbeda.');</script>";
        
         echo "<script>window.location.href = 'index.php';</script>";
         exit();
